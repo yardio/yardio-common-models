@@ -1,4 +1,4 @@
-package io.yard.models
+package io.yard.common.models
 
 import akka.actor.{ ActorRef, Props }
 
@@ -16,7 +16,6 @@ case class Module(
   actorProps: Option[Props] = None,
   actor: Option[ActorRef] = None // Don't try to set this one
 )
-
 
 trait ModuleConfiguration {}
 

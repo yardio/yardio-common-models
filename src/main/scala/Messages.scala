@@ -1,4 +1,4 @@
-package io.yard.models
+package io.yard.common.models
 
 case class Message (
   text: String,
